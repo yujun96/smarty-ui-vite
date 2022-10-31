@@ -29,5 +29,12 @@ export default defineConfig({
       // 导出模块格式
       formats: ['esm', 'umd', 'iife']
     }
+  },
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    transformMode: {
+      web: [/.[tj]sx$/]
+    }
   }
 });
