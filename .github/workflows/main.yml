@@ -1,9 +1,9 @@
 name: CI
 on: 
   push: 
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   UnitTest: 
   # 单元测试任务
