@@ -5,10 +5,6 @@ on:
   pull_request:
     branches: [ main ]
 jobs:
-  Lint:
-    name: eslint
-    run: echo 'hello world'
-   #Lint任务
   UnitTest: 
   # 单元测试任务
     runs-on: ubuntu-latest
